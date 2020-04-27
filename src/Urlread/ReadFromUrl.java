@@ -41,7 +41,20 @@ public class ReadFromUrl {
 
 
     }
+    public void startwith(String letter){
+        int count = 0;
 
+        for (var i:getList()) {
+            if(i.startsWith(letter)){
+                count++;
+
+
+            }
+
+        }
+        System.out.println("Antal ord med " + letter + " antal bokstäver: " + count);
+
+    }
 
 
 

@@ -16,5 +16,7 @@ public class Main {
             if(i == 45)break;
         }
 
+        read.startwith("a");
+
     }
 }
